@@ -1,5 +1,5 @@
-import { View, Text, StyleSheet, ImageBackground, FlatList, Image, ScrollView } from 'react-native';
-import React from 'react';
+import { View, Text, StyleSheet, ImageBackground, Modal, FlatList, Image, ScrollView, TouchableOpacity, Dimensions} from 'react-native';
+import  { useState} from 'react';
 import city2 from '../assets/city2.jpg';
 import { Feather, FontAwesome5, Ionicons } from '@expo/vector-icons';
 import img1 from '../assets/serve1.jpg'
@@ -9,27 +9,28 @@ import img4 from '../assets/serve4.jpg'
 import img5 from '../assets/serve5.jpg'
 import img6 from '../assets/serve6.jpg'
 
-const data = [
-  {
-    id: '1',
-    title: 'Attractions',
-  },
-  {
-    id: '2',
-    title: 'Map'
-  },
-  {
-    id: '3',
-    title: 'Hotel'
-  },
-  {
-    id: '4',
-    title: 'Tour'
-  },
-];
 
 
 export default function Home() {
+  const data = [
+    {
+      id: '1',
+      title: 'Attractions',
+    },
+    {
+      id: '2',
+      title: 'Map'
+    },
+    {
+      id: '3',
+      title: 'Hotel'
+    },
+    {
+      id: '4',
+      title: 'Tour'
+    },
+  ];
+  
   return (
     <ScrollView style={styles.scroll}>
       <View style={styles.container}>
@@ -56,6 +57,7 @@ export default function Home() {
           />
           </View>
           <View style={styles.group1}>
+            
             <View style={styles.mainC}>
               <Image source={img1} style={styles.img1} />
                 <Text style={styles.hard}>Hard Tour</Text>
@@ -97,6 +99,9 @@ export default function Home() {
   );
 }
 
+const { width, height } = Dimensions.get('window');
+
+
 const styles = StyleSheet.create({
   scrroll:{
     backgroundColor: '#000000a0',
@@ -126,7 +131,7 @@ const styles = StyleSheet.create({
   circ: {
     width: 40,
     height: 40,
-    borderRadius: '50%', // Adjusted to a fixed radius instead of percentage
+    borderRadius: '50%', 
     backgroundColor: 'red',
     justifyContent: 'center',
     alignItems: 'center',
@@ -139,7 +144,7 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: 18,
     marginLeft: 10,
-    flex: 1, // Takes up the remaining space
+    flex: 1, 
   },
   searchIcon: {
     marginLeft: 'auto',
@@ -211,7 +216,6 @@ const styles = StyleSheet.create({
     marginLeft: 20,
     borderWidth: 2,
     borderColor: '#fff'
-  },
-  
+  }
 });
 
