@@ -18,12 +18,41 @@ export default function Home() {
   ];
 
   const modalData = [
-    { id: '1', image: img1, title: 'Hard Tour Visit', description: 'Experience the thrill of the Hard Tour, where adventure meets culture in an unforgettable journey. From breathtaking landscapes to vibrant cityscapes, immerse yourself in the unique blend of natural beauty and urban charm.' },
-    { id: '2', image: img2, title: 'Inter City Temple', description: 'Discover the serene beauty of the Inter City Temple. A place of peace and spirituality, offering a unique glimpse into the ancient traditions and modern vibrancy of the city.' },
-    { id: '3', image: img3, title: 'Path Walk Street', description: 'Take a stroll down Path Walk Street, a bustling hub of activity where you can experience the local culture and lively atmosphere of the city.' },
-    { id: '4', image: img4, title: 'Walk Through Style', description: 'Experience the chic and modern ambiance of Walk Through Style, where fashion and design meet in a stunning display of contemporary urban living.' },
-    { id: '5', image: img5, title: 'Under Bridge View', description: 'Explore the unique perspective of Under Bridge View, a hidden gem offering stunning views and a tranquil escape from the city’s hustle and bustle.' },
-    { id: '6', image: img6, title: 'Over View City', description: 'Get a panoramic view of the city from Over View City. A breathtaking vantage point that offers a stunning look at the urban landscape.' },
+    { 
+      id: '1',
+      image: img1,
+       title: 'Hard Tour Visit', 
+       description: 'Experience the thrill of the Hard Tour, where adventure meets culture in an unforgettable journey. From breathtaking landscapes to vibrant cityscapes, immerse yourself in the unique blend of natural beauty and urban charm.' 
+    },
+    { 
+      id: '2',
+      image: img2, 
+      title: 'Inter City Temple', 
+      description: 'Discover the serene beauty of the Inter City Temple. A place of peace and spirituality, offering a unique glimpse into the ancient traditions and modern vibrancy of the city.' 
+    },
+    { 
+      id: '3',
+      image: img3, 
+      title: 'Path Walk Street', 
+      description: 'Take a stroll down Path Walk Street, a bustling hub of activity where you can experience the local culture and lively atmosphere of the city.' 
+    },
+    { 
+      id: '4',
+      image: img4,
+      title: 'Walk Through Style',
+      description: 'Experience the chic and modern ambiance of Walk Through Style, where fashion and design meet in a stunning display of contemporary urban living.' 
+    },
+    { 
+      id: '5', 
+    image: img5, 
+    title: 'Under Bridge View', description: 'Explore the unique perspective of Under Bridge View, a hidden gem offering stunning views and a tranquil escape from the city’s hustle and bustle.' 
+    },
+    { 
+      id: '6', 
+      image: img6, 
+      title: 'Over View City', 
+      description: 'Get a panoramic view of the city from Over View City. A breathtaking vantage point that offers a stunning look at the urban landscape.'
+     },
   ];
 
   // Modal Function
