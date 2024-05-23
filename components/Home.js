@@ -341,7 +341,7 @@ const styles = StyleSheet.create({
     width: 40,
     height: 40,
     backgroundColor: '#fff',
-    borderRadius: '50%'
+    borderRadius: 20
   },
   explore: {
     color: '#fff',
