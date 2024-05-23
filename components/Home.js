@@ -190,9 +190,6 @@ export default function Home() {
 const { width, height } = Dimensions.get('window');
 
 const styles = StyleSheet.create({
-  scroll:{
-    backgroundColor: '#000000a0',
-  },
   container: {
     flex: 1,
     backgroundColor: '#000000a0',
