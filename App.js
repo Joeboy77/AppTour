@@ -7,7 +7,7 @@ import LocationMap from './components/LocationMap';
 export default function App() {
   return (
     <View style={styles.container}>
-      <LocationMap />
+      <Home />
       <StatusBar style="dark" />
     </View>
   );
