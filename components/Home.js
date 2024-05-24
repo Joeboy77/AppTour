@@ -21,8 +21,8 @@ export default function Home() {
     { 
       id: '1',
       image: img1,
-       title: 'Hard Tour Visit', 
-       description: 'Experience the thrill of the Hard Tour, where adventure meets culture in an unforgettable journey. From breathtaking landscapes to vibrant cityscapes, immerse yourself in the unique blend of natural beauty and urban charm.' 
+      title: 'Hard Tour Visit', 
+      description: 'Experience the thrill of the Hard Tour, where adventure meets culture in an unforgettable journey. From breathtaking landscapes to vibrant cityscapes, immerse yourself in the unique blend of natural beauty and urban charm.' 
     },
     { 
       id: '2',
