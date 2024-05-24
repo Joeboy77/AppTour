@@ -24,6 +24,8 @@ export default function LocationMap() {
       latitudeDelta: 0.0922,
       longitudeDelta: 0.0421,
     });
+  
+    console.log(location.coords.latitude, location.coords.longitude);
     
   }
 
@@ -37,6 +39,9 @@ export default function LocationMap() {
         >
           <Marker coordinate={mapRegion} title='Marker'/>
         </MapView>
+        <TouchableOpacity style= {styles.opacity} onPress={userLocation}>
+          <Text style={styles.get}>Get Location</Text>
+        </TouchableOpacity>
     </View>
   )
     
