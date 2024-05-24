@@ -1,13 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Screen1 from './components/Screen1';
-import Home from './components/Home'
+import Home from './components/Home';
+import LocationMap from './components/LocationMap';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Home />
-      <StatusBar style="light" />
+      <LocationMap />
+      <StatusBar style="dark" />
     </View>
   );
 }
