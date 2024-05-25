@@ -9,5 +9,10 @@ export default function Attraction() {
   )
 }
 const styles = StyleSheet.create({
-    
+    view: {
+        flex: 1,
+        backgroundColor: 'plum',
+        justifyContent: 'center',
+        alignItems: 'center'
+    }
 })
