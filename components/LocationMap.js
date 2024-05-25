@@ -40,7 +40,7 @@ export default function LocationMap() {
           <Marker coordinate={mapRegion} title='Marker'/>
         </MapView>
         <TouchableOpacity style= {styles.opacity} onPress={userLocation}>
-          <Text style={styles.get}>Get Location</Text>
+          <Text style={styles.get}>Navigate to current Location</Text>
         </TouchableOpacity>
     </View>
   )
