@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function Attraction() {
   return (
-    <View>
-      <Text>Attraction</Text>
+    <View style={styles.view}>
+      <Text style={styles.text}>Attraction</Text>
     </View>
   )
 }
