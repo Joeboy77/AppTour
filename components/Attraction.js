@@ -1,4 +1,4 @@
-import { View, Text } from 'react-native'
+import { View, Text, StyleSheet } from 'react-native'
 import React from 'react'
 
 export default function Attraction() {
@@ -8,3 +8,6 @@ export default function Attraction() {
     </View>
   )
 }
+const styles = StyleSheet.create({
+    
+})
