@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Screen1 from './components/Screen1';
 import Home from './components/Home';
 import LocationMap from './components/LocationMap';
+import Attraction from './components/Attraction';
 
 export default function App() {
   return (
