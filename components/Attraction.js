@@ -5,6 +5,7 @@ export default function Attraction() {
   return (
     <View style={styles.view}>
       <Text style={styles.text}>Attraction</Text>
+      <Text>Explore more attracted places all aorund the world. Let use wrap up</Text>
     </View>
   )
 }
