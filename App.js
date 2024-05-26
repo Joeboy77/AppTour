@@ -8,7 +8,7 @@ import Attraction from './components/Attraction';
 export default function App() {
   return (
     <View style={styles.container}>
-      <LocationMap />
+      <Attraction />
       <StatusBar style="dark" />
     </View>
   );
