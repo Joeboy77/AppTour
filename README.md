@@ -17,3 +17,4 @@ various tourist attractions, complete with images, descriptions, maps and user r
 **Favorites**: Save your favorite attractions for quick access.
 
 **Offline Access**: Access information about attractions even without an internet connection.
+**Hotel Severvation**: Users can book hotel around their location, make payment onlive via any method of payment.
