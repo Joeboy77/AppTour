@@ -6,6 +6,7 @@ export default function Hotel() {
     <View>
       <Text>Hotel</Text>
       <View>get to know all hotel around</View>
+      <Image />
     </View>
   )
 }
