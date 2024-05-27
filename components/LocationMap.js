@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, Dimensions, Button, TouchableOpacity, Alert } from 'react-native'
+import { View, Text, StyleSheet, Dimensions,  TouchableOpacity} from 'react-native'
 import React, { useState, useEffect } from 'react'
 import MapView, { Marker} from 'react-native-maps';
 import * as Location from 'expo-location';
