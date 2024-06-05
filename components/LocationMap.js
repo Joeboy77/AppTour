@@ -5,6 +5,8 @@ import * as Location from 'expo-location';
 
 
 export default function LocationMap() {
+ 
+  
   const [mapRegion, setMapRegion] = useState({
     latitude: 37.78825,
     longitude: -122.4324,
@@ -21,8 +23,7 @@ export default function LocationMap() {
     let location = await Location.getCurrentPositionAsync({enableHighAccuracy: true})
     setMapRegion({
       latitude: location.coords.latitude,
-      longitude: location.coords.longitude,
-      latitudeDelta: 0.0922,
+      longitude: location.coords.longitude, latitudeDelta: 0.0922,
       longitudeDelta: 0.0421,
     });
   
